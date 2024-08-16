@@ -6,4 +6,6 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID,
+ALIVE_IMG: process.env.ALIVE_IMG || "https://avatears.githubusercontent.com/u/1O625114D?v=4",
+ALIVE_WSG: process.env.ALIVE_WSG || "Hellow, I an Youname alive now",
 };
